@@ -6,7 +6,15 @@ html {
 body {
   background-image: linear-gradient(rgb(228, 232, 240), rgb(53, 56, 61));
 }
-/*header {background-image: linear-gradient(rgb(125, 75, 171), yellow);}*/
 
+header {
 
-/*test*/
+  background-color: rgb(149, 173, 173);
+
+  border-radius: 15px;
+ 
+  margin-right: 500px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+
+}
