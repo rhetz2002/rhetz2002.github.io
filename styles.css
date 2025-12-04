@@ -1,80 +1,73 @@
-html {
-  text-align: center;
-  
-}
-
+/* Overall page styling */
 body {
-  background-image: linear-gradient(rgb(228, 232, 240), rgb(53, 56, 61));
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(rgb(228, 232, 240), rgb(53, 56, 61));
 }
 
-header {
-
-  background-color: rgb(149, 173, 173);
-
-  border-radius: 15px;
- 
-  margin-right: 500px;
-  margin-left: 500px;
-  margin-bottom: 10px;
-  padding-bottom: .01px;
-
+/* A reusable centered card for all sections */
+section, header, .slate, .audition, .theatrical_resume, .headshot {
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: rgb(149, 173, 173);
+    border-radius: 20px;
+    box-sizing: border-box;
 }
 
-.slate {
-
-  padding-top: 20px;
-  padding-bottom: 5px;
-
-  background-color: rgb(149, 173, 173);
-
-  margin-right: 400px;
-  margin-left: 400px;
-
-  border-radius: 15px;
+/* Header spacing */
+header h1 {
+    margin-bottom: 5px;
 }
 
+header h2 {
+    margin-top: 0;
+    font-weight: 400;
+}
+
+/* Responsive iframe (YouTube videos) */
+iframe {
+    width: 100%;
+    border: none;
+}
+
+/* Audition layout */
 .audition {
-  padding-top: 20px;
-
-  background-color: rgb(149, 173, 173);
-
-  margin-right: 400px;
-  margin-left: 400px;
-
-  border-radius: 15px;
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
 }
 
-.theatrical_resume{
-
-  background-color: rgb(149, 173, 173);
-
-  padding-top: 1px;
-  margin-top: 30px;
-
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-
-  margin-right: 650px;
-  margin-left: 650px;
-
-  border-radius: 20px;
-
+.audition > div {
+    width: 100%;
+    max-width: 350px;
 }
 
-.headshot{
+/* Resume embed */
+.theatrical_resume embed {
+    width: 100%;
+    height: 700px;
+    border: none;
+}
 
-  background-color: rgb(149, 173, 173);
+/* Headshot image */
+.headshot img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
 
-  margin-right: 600px;
-  margin-left: 600px;
+/* Email link styling */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
-  padding-top: 5px;
-  margin-top: 10px;
-
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-
-  border-radius: 20px;
-
+a:hover {
+    text-decoration: underline;
 }
