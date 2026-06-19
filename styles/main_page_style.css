@@ -1,0 +1,52 @@
+/* sets up the new font*/
+.comic-relief-regular {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-relief-bold {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fascinate-inline-regular {
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* alligns the document to the center and aplies the new font as well as background color*/
+html {text-align: center;
+font-family: "Comic Relief", system-ui;
+background-image: linear-gradient(rgb(125, 75, 171), yellow);
+}
+
+/*changes the font and color of my name*/
+#name {font-family: "Fascinate Inline", system-ui; color: gold;}
+
+/* changes footer color */
+/*footer {background-color: gold;}8?
+
+/* sellects the footer text*/
+footer p {color:rgb(125, 75, 171);}
+
+/*sets a border for main img*/
+.niko {
+  border: 5em 
+  double
+  rgb(155, 69, 236);
+  border-radius: 5em;}
+
+/*sets up the side bar*/
+.side {
+  position: fixed;
+  top: 0.5em;
+  right: 0.5em;
+  width: 100px; 
+  height: 200px;
+  border: 0.5em
+  solid
+  rgb(155, 69, 236);
+  border-radius: 1.2em;}
