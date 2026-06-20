@@ -1,5 +1,8 @@
 /* alligns the document to the center and aplies background image*/
-html {text-align: center;}
+html {
+    text-align: center;
+    font-size: 175%;
+}
 
 /* adds headder background */
 header { 
@@ -32,10 +35,16 @@ header h1 {
     padding-bottom: 1%;
 }
 
+/* wip link styling*/
 header a:link {
     background-image: url('../landing_images/button.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+}
+
+body p {
+    text-align: center;
+    width: 75%;
+    margin: auto;
 }
