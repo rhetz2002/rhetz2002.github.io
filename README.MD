@@ -1,2 +1,1 @@
-## I thought id just submit the landing page considering your E-mail
-## the page i made for the asignment is under the link "practice html project"
+## I thought id just submit it as a landing page that connects to my past pages

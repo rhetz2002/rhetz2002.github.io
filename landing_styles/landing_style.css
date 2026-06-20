@@ -11,16 +11,31 @@ header {
 /*adds padding to top of header*/
 header div {
 padding-top: 0.5%;
+height: 110%;
 
 }
 
 /*adds padding to links*/
 .side1 { 
-    padding-right: 2%;
+    padding-right: 0.5%;
+    padding-left: 0.5;
+}
+
+.side2 {
+    padding-right: 0.5%;
+    padding-left: 0.5;
 }
 
 /*helps center the main title*/
 header h1 {
     text-align: center;
     padding-bottom: 1%;
+}
+
+header a:link {
+    background-image: url('../landing_images/button.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
