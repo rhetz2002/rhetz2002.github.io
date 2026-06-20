@@ -1,0 +1,26 @@
+/* alligns the document to the center and aplies background image*/
+html {text-align: center;}
+
+/* adds headder background */
+header { 
+    background-image: url('../landing_images/headder.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*adds padding to top of header*/
+header div {
+padding-top: 0.5%;
+
+}
+
+/*adds padding to links*/
+.side1 { 
+    padding-right: 2%;
+}
+
+/*helps center the main title*/
+header h1 {
+    text-align: center;
+    padding-bottom: 1%;
+}
