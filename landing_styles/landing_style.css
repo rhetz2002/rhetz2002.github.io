@@ -2,6 +2,7 @@
 html {
     text-align: center;
     font-size: 175%;
+    background-image: linear-gradient(rgb(159, 0, 0), rgb(255, 255, 255));
 }
 
 /* adds headder background */
@@ -11,12 +12,14 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /*adds padding to top of header*/
 header div {
 padding-top: 0.5%;
 height: 110%;
-
 }
+
+
 
 /*adds padding to links*/
 .side1 { 
@@ -43,8 +46,11 @@ header a:link {
     background-repeat: no-repeat;
 }
 
+/* centers body text and shrinks the margin so it wraps automatically*/ 
 body p {
     text-align: center;
     width: 75%;
     margin: auto;
 }
+
+ul {list-style-position:inside; }
